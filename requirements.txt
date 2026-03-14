@@ -1,0 +1,19 @@
+# --- Core Data Science ---
+pandas
+numpy
+scipy
+
+# --- F1 Specific ---
+fastf1
+
+# --- Visualization ---
+matplotlib
+seaborn
+plotly
+
+# --- Machine Learning & Stats ---
+scikit-learn
+statsmodels
+
+# --- Jupyter Notebook Support ---
+ipykernel
