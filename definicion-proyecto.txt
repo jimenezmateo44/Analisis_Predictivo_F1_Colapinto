@@ -1,0 +1,61 @@
+1. Resumen
+
+Breve descripción del proyecto: análisis de telemetría de Franco Colapinto vs Pierre Gasly en 2026 para predecir su posición final en el campeonato usando modelos estocásticos.
+
+2. Introducción
+
+Problemática observada: La dificultad de evaluar el rendimiento real de un piloto de F1 debido a variables externas (estrategia, fiabilidad, tráfico) que ensucian los resultados brutos.
+
+Hipótesis de Investigación: El análisis de micro-sectores de telemetría permite identificar ventajas competitivas de Colapinto sobre Gasly que no son visibles en la tabla de puntos actual.
+
+Objetivo General: Desarrollar un modelo predictivo basado en datos de alta frecuencia para proyectar el desempeño de fin de temporada.
+
+Objetivos Específicos: (Los que definimos antes: extracción con FastF1, modelado de degradación y simulación de Monte Carlo).
+
+Antecedentes: Breve historia de la telemetría en F1 y cómo la Ciencia de Datos reemplazó a la intuición de los ingenieros.
+
+3. Metodología
+
+Explicación del stack tecnológico (Python, FastF1, Scikit-learn).
+
+Justificación del uso de datos de 2026 y comparación interna en Alpine.
+
+4. El ecosistema de la Fórmula 1 (Tu caso de estudio)
+
+Caracterización técnica del Alpine A126: Especificaciones y rol de Colapinto en el equipo.
+
+El flujo de datos en un Gran Premio: Cómo se capturan los datos de los sensores del auto.
+
+Dinámica de competencia: Entender el sistema de puntos y las regulaciones de 2026.
+
+5. Técnicas de Ciencia de Datos Aplicadas
+
+Adquisición de datos mediante APIs: Uso de FastF1 y Ergast (equivalente al "Web Scraping" del ejemplo).
+
+Procesamiento de Series Temporales: Cómo se manejan datos que dependen del tiempo/distancia.
+
+Análisis Exploratorio (EDA) de Telemetría: Uso de diagramas de caja (boxplots) y gráficos de líneas.
+
+Aprendizaje Automático y Simulación: Explicación de modelos de regresión y métodos estocásticos (Monte Carlo).
+
+6. Desarrollo Experimental
+
+Materiales y Métodos: Entorno VS Code, GitHub, librerías utilizadas.
+
+Algoritmo de adquisición y limpieza: Cómo detectas y eliminas vueltas con Safety Car o tráfico.
+
+Análisis Univariado: Distribución de velocidades máximas, tiempos de vuelta.
+
+Análisis Multivariado: Relación entre temperatura de pista y degradación de neumáticos.
+
+Implementación del Modelo: Detalles técnicos del algoritmo predictivo de puntos.
+
+7. Resultados y Discusión
+
+Presentación de la "Posición Final Probable" de Franco.
+
+Comparativa de eficiencia en frenada y tracción vs Gasly.
+
+8. Conclusiones
+
+Validación de la hipótesis inicial. ¿Es Franco superior en ritmo puro?
